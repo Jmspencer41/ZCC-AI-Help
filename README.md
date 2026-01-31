@@ -1,7 +1,12 @@
-# Learning with AI
+# Learning with AI — Smart Home with ESP32-C6 & Raspberry Pi 4
 
-## Learning ESP programming for zigbee network stack with ESP-IDF and ESP32-C6 and Raspberry pi.
+Short repo for hands-on learning and examples to build Zigbee-capable smart home devices.
 
+Learning topics
+- Software: ESP-IDF development for ESP32‑C6 (Zigbee stack, firmware, flashing)
+- Hardware: Building devices + Raspberry Pi 4 integration (wiring, power, Pi as coordinator/gateway)
 
-## Building smart home devices with esp32-C6 and Raspberry Pi 4.
+Goals
+- Working ESP32‑C6 example(s) with Zigbee endpoints and a Pi-based coordinator.
+- Concise docs, wiring notes, and reproducible steps.
 
