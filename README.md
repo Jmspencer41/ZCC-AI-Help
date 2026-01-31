@@ -2,7 +2,7 @@
 
 Short repo for hands-on learning and examples to build Zigbee-capable smart home devices.
 
-Learning topics
+## Learning topics
 - Software: ESP-IDF development for ESP32‑C6 (Zigbee stack, firmware, flashing)
 - Hardware: Building devices + Raspberry Pi 4 integration (wiring, power, Pi as coordinator/gateway)
 
