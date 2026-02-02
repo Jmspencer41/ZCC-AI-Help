@@ -1,0 +1,11 @@
+Best option for LD2410C:
+Use pyserial directly (which you already have) + a custom class. The LD2410C communicates via UART serial, so you need:
+
+pyserial to handle the serial connection
+Custom parsing for LD2410C's binary protocol (presence, distance data, etc.)
+Summary:
+
+gpiozero: Wrong tool - it's for GPIO pins, not serial sensors
+Adafruit: No LD2410C support, but philosophy is better for sensors
+pyserial + custom class: The actual right choice for LD2410C
+Since LD2410C uses UART serial communication, skip both and just use pyserial with a custom sensor reader class that parses the LD2410C protocol. That's what you'll need anyway.

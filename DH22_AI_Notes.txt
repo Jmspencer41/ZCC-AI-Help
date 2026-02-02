@@ -1,0 +1,15 @@
+Best option for DHT22:
+Use Adafruit_DHT - it's specifically designed for DHT sensors and will save you from dealing with DHT22's finicky single-wire protocol.
+
+Summary:
+
+DHT22 + LD2410C combination: Use both libraries
+
+Adafruit_DHT for temperature/humidity
+pyserial + custom class for LD2410C presence sensor
+gpiozero: Not suitable for either sensor type
+
+For your project, I'd recommend:
+
+Then create two separate sensor reader classes - one using Adafruit for DHT22, one using pyserial for LD2410C.
+
